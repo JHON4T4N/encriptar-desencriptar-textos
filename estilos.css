@@ -1,0 +1,170 @@
+.main-div{
+    padding-top: 40px;
+    
+    width: 400px;
+    height: 250px;
+    margin: 0 auto;
+}
+.main-div{
+ border: solid;
+ border-color: #002333;
+ text-align: center;
+}
+
+.requisitos{
+    padding-top: 40px;
+    
+    width: 400px;
+    height: 250px;
+    margin: 0 auto;
+}
+
+h1{
+     color: #002333;
+     text-align: center;
+}
+hr{
+    color: #002333;
+}
+
+footer{
+    text-align: center;
+    color: #002333;
+}
+h3{
+    color: #231752;
+}
+p{
+    color: #231752;  
+}
+.button{
+    margin-top: 10px;
+   
+}
+.button:hover{
+    background: #B4BEC9;
+}
+.button2{
+    margin-top: 10px;
+    
+}
+.button2:hover{
+    background: #B4BEC9;
+}
+/**
+.button3{
+    margin-top: 10px;
+    
+}
+.button3:hover{
+    background: #B4BEC9;
+} **/
+
+/*** ESTILOS BOTON ENCRIPTAR***/
+.button{
+    margin-top: 10px;
+    background: #fff; /* color de fondo */
+    color: #002333; /* color de fuente */
+    border: 2px solid #002333; /* tamaño y color de borde */
+    padding: 4px 10px;
+    border-radius: 3px; /* redondear bordes */
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    display: inline-block;
+  }
+  .button:hover {
+    color: #fff;/* color de fuente hover */
+  }
+  .button::after {
+    content: "";
+    background: #4741d7; /* color de fondo hover */
+    position: absolute;
+    z-index: -1;
+    padding: 16px 20px;
+    display: block;
+    left: -20%;
+    right: -20%;
+    top: 0;
+    bottom: 0;
+    transform: skewX(-45deg) scale(0, 1);
+    transition: all 0.3s ease;
+  }
+  .button:hover::after {
+    transition: all 0.3s ease-out;
+    transform: skewX(-45deg) scale(1, 1);
+  }
+
+/*** ESTILOS BOTON DESENCRIPTAR ***/
+.button2{
+    margin-top: 10px;
+    background: #fff; /* color de fondo */
+    color: #002333; /* color de fuente */
+    border: 2px solid #002333; /* tamaño y color de borde */
+    padding: 4px 10px;
+    border-radius: 3px; /* redondear bordes */
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    display: inline-block;
+  }
+  .button2:hover {
+    color: #fff;/* color de fuente hover */
+  }
+  .button2::after {
+    content: "";
+    background: #4741d7; /* color de fondo hover */
+    position: absolute;
+    z-index: -1;
+    padding: 16px 20px;
+    display: block;
+    left: -20%;
+    right: -20%;
+    top: 0;
+    bottom: 0;
+    transform: skewX(-45deg) scale(0, 1);
+    transition: all 0.3s ease;
+  }
+  .button2:hover::after {
+    transition: all 0.3s ease-out;
+    transform: skewX(-45deg) scale(1, 1);
+  }
+
+
+
+
+/*** ESTILOS BOTÓN copiar ***/
+.button3{
+    margin-top: 10px;
+    background: #fff; /* color de fondo */
+    color: #002333; /* color de fuente */
+    border: 2px solid #002333; /* tamaño y color de borde */
+    padding: 4px 10px;
+    border-radius: 3px; /* redondear bordes */
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    display: inline-block;
+  }
+  .button3:hover {
+    color: #fff;/* color de fuente hover */
+  }
+  .button3::after {
+    content: "";
+    background: #4741d7; /* color de fondo hover */
+    position: absolute;
+    z-index: -1;
+    padding: 16px 20px;
+    display: block;
+    left: -20%;
+    right: -20%;
+    top: 0;
+    bottom: 0;
+    transform: skewX(-45deg) scale(0, 1);
+    transition: all 0.3s ease;
+  }
+  .button3:hover::after {
+    transition: all 0.3s ease-out;
+    transform: skewX(-45deg) scale(1, 1);
+  }
+

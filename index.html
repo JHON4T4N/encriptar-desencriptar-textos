@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="estilos.css">
+ 
+</head>
+
+<header><h1>Encriptando Cadenas de Textos</h1></header>
+<body>
+<section class="main">
+    <div class="main-div">
+        <form id="formulario" class="clas1">
+
+            <input type="text" id="id1" placeholder="escriba aqui el texto a encriptar" >
+            <br>
+            <button id="botonEncriptar"  class="button" type="submit" >Encriptar</button>
+            <br>
+            <button id="botonDesencriptar"  class="button2" type="submit" >Desencriptar</button>
+            <br>
+            <button id="botonCopiar"  class="button3" type="submit" >copiar</button>
+        </form>
+        <hr>
+        <textarea name="respuesta" class="respuesta" id="respuesta" rows="5" cols="25" ></textarea>
+            <br>
+    </div>
+        
+    
+</section>
+<section class="nota">
+    <div class="requisitos">
+        <h3>Requisitos:</h3>
+        <p>- Debe funcionar solo con letras minúsculas</p>
+        <p>- No deben ser utilizados letras con acentos ni caracteres especiales</p>
+        <p>- Debe ser posible convertir una palabra para la versión encriptada también devolver una palabra encriptada para su versión original.</p>
+    </div>
+</section>
+
+
+<script src="miArchivo.js"></script>
+<script type="text/javascript">
+    let id1=document.getElementById("id1").value;
+    console.log( id1);
+    </script>
+
+
+</body>
+
+<footer><P>Creado por Jhonatan Arrieta para  Alura -Grupo4</P></footer>
+</html>
